@@ -20,3 +20,27 @@ def otos(arr):
 arr=[1, 7, 3, 5, 4, 2]
 
 print(otos(arr))
+
+
+
+
+
+
+
+
+while True:
+    try:
+        k=[]
+        n=input("Adjon meg egy szót: ")
+        while n!="0":
+            n = input("Adjon meg egy szót")
+            k.append(n)
+
+
+        break
+
+
+
+
+    except ValueError:
+        print("Nem megfelelő input")
