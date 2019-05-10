@@ -15,11 +15,13 @@ def otos(arr):
 
     return maximum
 
+try:
+    a =[1,7,3,5,4,2]
+    b=otos(a)
+    print(b)
 
-
-arr=[1, 7, 3, 5, 4, 2]
-
-print(otos(arr))
+except ValueError:
+    print("Nem megfelelő input.")
 
 
 
