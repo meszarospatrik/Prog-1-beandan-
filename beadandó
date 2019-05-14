@@ -46,3 +46,48 @@ while True:
 
     except ValueError:
         print("Nem megfelelő input")
+        
+        
+        
+        def elsoszo(elem):
+    for i in elem:
+        return i[0]
+
+
+
+
+def bemenet(elem):
+    for i in range(0,len(elem)):
+        return elem[i::-1]
+
+
+
+
+
+
+k=[]
+n=()
+while n!="0":
+    n=input("adjon meg egy szót: ")
+
+    if n in k:
+        while n in k or n=="0":
+            n=input("Adjon meg egy másik szót. ")
+            if n=="0":
+                break
+
+
+        else:
+            k.append(n)
+    elif n=="0":
+        break
+    else:
+        k.append(n)
+
+print(k)
+print(k[::-1])
+"""
+k.sort((key=elsoszo)
+k.sort(key=len)
+"""
+b=sorted(sorted(k,key=len,reverse=True),key=elsoszo)
