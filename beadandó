@@ -1,3 +1,13 @@
+import numpy as np
+
+from random import randint
+import random
+
+
+
+
+
+
 def otos(x):
     n = len(x)
 
