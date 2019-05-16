@@ -130,6 +130,9 @@ def sziget(x):
 try:
 
     sziget(20)
+    m=(100-3)//4
+    maxsziget=m*m
+    print(maxsziget)
    
 except TypeError:
     print("Nem megfelelő input.")
